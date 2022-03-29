@@ -1,0 +1,92 @@
+header{
+    background: #4a4a4a;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 5em;
+    border-bottom: 3px solid #a5a2a2;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-nav-container .logo{
+    margin-left: 5em;
+}
+
+.navegacion ul li #contact{
+    margin-right: 5em;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.navegacion ul li{
+    display: inline-block;
+}
+
+.navegacion ul li a{
+        display: block;
+        padding: 0.5rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+.navegacion ul li a:hover {
+        color: rgb(116, 111, 111);
+        transition: 0.5s;
+    } 
+
+.logo{
+        letter-spacing: 15px;
+        font-size: 1.3em
+    }
+.menu-icon{
+        display: none;
+    }
+
+
+    @media only screen and (max-width: 775px){
+        .navegacion{
+                    width: 100%;
+                }
+        .navegacion ul li{
+                    display: block;
+                    }
+        .navegacion ul.show{
+                         display:block;
+                     }
+        .navegacion ul{
+                        display: none;
+                    }
+        .menu-icon{
+                        display: block;
+                       cursor: pointer; 
+                       padding: 0.5rem 1rem;
+                    }
+                
+        .navegacion ul li a{
+                        display: block;
+                        padding: 0.5rem 1rem;
+                        transition: all 0.4s linear;
+                        border-radius: 5px;
+                    }
+        .navegacion ul li a:hover {
+                        background: #4a4a4a;
+                    } 
+         }
+        
