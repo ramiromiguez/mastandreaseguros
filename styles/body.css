@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 @import url(../styles/header.css);
 @import url(../styles/titulo.css);
 @import url(../styles/footer.css);
+=======
+@import url(/styles/header.css);
+@import url(/styles/titulo.css);
+>>>>>>> 6ba08c20e6bccb9e67473698d4352df6512b295a
 
 body{
     background-color: white;
