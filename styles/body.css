@@ -1,5 +1,5 @@
-@import url(/mastandreaseguros/styles/header.css);
-@import url(/mastandreaseguros/styles/titulo.css);
+@import url(/styles/header.css);
+@import url(/styles/titulo.css);
 
 body{
     background-color: white;
