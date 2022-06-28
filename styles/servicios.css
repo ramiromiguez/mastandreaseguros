@@ -1,0 +1,54 @@
+.titulo-servicios {
+    font-family: 'Noto Sans',
+        sans-serif;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.contenido {
+    margin: 3px;
+    font-family: 'Cormorant Garamond',
+        serif;
+
+}
+
+.caja1 {
+    margin-top: 10px;
+    display: table-cell;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 15px;
+
+    position: relative;
+}
+
+.caja1 h2 {
+    font-size: 50px;
+}
+
+.caja1 h3 {
+    font-family: 'Cormorant Garamond',
+        serif;
+    font-size: 22px;
+}
+
+
+.caja2 {
+    margin-top: 10px;
+    display: table-cell;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.caja2 h2 {
+    font-size: 50px;
+}
+
+.caja2 h3 {
+    font-size: 22px;
+}
